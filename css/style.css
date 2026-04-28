@@ -448,3 +448,9 @@ section {
 .stat-box p {
   color: var(--text-light);
 }
+.service-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
